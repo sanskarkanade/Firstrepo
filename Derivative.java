@@ -4,7 +4,6 @@ class Derivative
 {
     public static void main(String[] args) 
     {  
-        System.out.println("hello");
        String s1=new String("a");
        String s2=new String("sinx");
        String s3=new String("cosx");
