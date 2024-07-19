@@ -5,7 +5,7 @@ class Derivative
     public static void main(String[] args) 
     {   
        
-       String s1=new String("a");
+       String s1=new String("x");
        String s2=new String("sinx");
        String s3=new String("cosx");
        String s4=new String("tanx");
@@ -16,7 +16,7 @@ class Derivative
        Scanner sc=new Scanner(System.in);
        System.out.println("Enter a single term ");
        term=sc.nextLine();
-       System.out.println("Enter the angle(1,2,...)");
+       System.out.println("Enter the angle(1,2,...) if function is trignometric\nOR\nPower of x");
        int n = sc.nextInt();
        sc.close();
        String s8=new String(term);
@@ -59,7 +59,7 @@ class Derivative
       {
         if(s1.equals(s8))
        {
-         System.out.println("1");
+         System.out.println(n+"x^"+(n-1));
        }
        else if(s2.equals(s8))
        {
